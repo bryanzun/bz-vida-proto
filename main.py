@@ -38,7 +38,7 @@ model_choice = st.sidebar.selectbox(
 )
 
 model_labels = {
-    "SmolVLM2 - Video & Image Analysis": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "SmolVLM2 - Video & Image Analysis": "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
     "SmolDocling - Document Handler": "ds4sd/SmolDocling-256M-preview",
     "Claude": "claude-3-haiku-20240307"
 }
